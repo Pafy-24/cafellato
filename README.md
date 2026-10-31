@@ -1,17 +1,13 @@
-# CAFELATTO - site static
+# CAFELATTO | Site static (revizia PPTX)
 
-Site realizat exclusiv în HTML, CSS și JavaScript, fără backend sau framework.
+Deschideți `index.html` direct în browser. Necesită numai HTML/CSS/JS, fără backend sau build.
 
-## Pornire
-Deschideți `index.html` în browser. Alternativ, pentru testare locală: `python -m http.server 8000` din acest director, apoi http://localhost:8000.
+Designul urmărește **Concurs.pptx** (fundal piersică, tonuri de cafea, forme jucăușe, ilustrații originale).
 
-## Fișiere
-- `index.html` - structura paginii
-- `styles.css` - design responsive, inspirat de Concurs.pdf
-- `script.js` - produsele/prețurile și interacțiunile meniului
-- `assets/` - ilustrații extrase din prezentarea furnizată
+- `assets/` conține elemente grafice extrase direct din prezentarea furnizată.
+- `styles.css` conține stilurile responsive și adaptările vizuale din prezentare.
+- `script.js` conține meniul și filtrarea pe categorii.
+- Meniul este derivat din `Meniu.pdf`, contactul din `Carte de vizita (3).pdf`.
+- Material pentru **firmă de exercițiu**, nu pentru o locație comercială verificată.
 
-## Note
-CAFELATTO este prezentat ca firmă de exercițiu, potrivit documentului Concurs.pdf.
-Adresa și coordonatele precise ale unei rulote funcționale nu sunt specificate în documente; nu au fost inventate. Adresa email și numărul de telefon sunt preluate din cartea de vizită; verificați-le înainte de publicare.
-Fonturile sunt încărcate din Google Fonts. Site-ul funcționează și fără ele, cu fonturi de rezervă.
+Fonturile sunt încărcate de la Google Fonts când există internet; browserul folosește fonturile alternative când nu există conexiune.
