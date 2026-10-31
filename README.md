@@ -1,13 +1,11 @@
-# CAFELATTO | Site static (revizia PPTX)
+# CAFELATTO · site static
 
-Deschideți `index.html` direct în browser. Necesită numai HTML/CSS/JS, fără backend sau build.
+Deschide `index.html` în browser. Nu este necesar backend sau build.
 
-Designul urmărește **Concurs.pptx** (fundal piersică, tonuri de cafea, forme jucăușe, ilustrații originale).
+- `index.html` · pagina principală și contact
+- `meniu.html` · meniul complet, filtre și prețuri
+- `despre-noi.html` · prezentarea și povestea CAFELATTO
+- `styles.css` / `script.js` · stiluri și interacțiuni
+- `assets/logo-cafelatto.png` · monograma CF extrasă din cartea de vizită furnizată
 
-- `assets/` conține elemente grafice extrase direct din prezentarea furnizată.
-- `styles.css` conține stilurile responsive și adaptările vizuale din prezentare.
-- `script.js` conține meniul și filtrarea pe categorii.
-- Meniul este derivat din `Meniu.pdf`, contactul din `Carte de vizita (3).pdf`.
-- Material pentru **firmă de exercițiu**, nu pentru o locație comercială verificată.
-
-Fonturile sunt încărcate de la Google Fonts când există internet; browserul folosește fonturile alternative când nu există conexiune.
+Telefon contact: **0750 213 000**.
