@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Caffelatto | Cafenea de specialitate</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f8f3ec;
+        --panel: #fffdf9;
+        --text: #2c1f19;
+        --muted: #6b574f;
+        --accent: #7b4b2a;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      .container {
+        width: min(980px, 92%);
+        margin: 0 auto;
+      }
+
+      header {
+        background: linear-gradient(135deg, #f2e4d2, #e9d2bc);
+        padding: 4rem 0 3rem;
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 5vw, 3rem);
+      }
+
+      .tagline {
+        margin-top: 0.8rem;
+        color: var(--muted);
+      }
+
+      main {
+        padding: 2rem 0 3rem;
+      }
+
+      section {
+        background: var(--panel);
+        border-radius: 12px;
+        padding: 1.2rem 1.4rem;
+        margin-bottom: 1rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      }
+
+      h2 {
+        margin-top: 0;
+        color: var(--accent);
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 1.1rem;
+      }
+
+      footer {
+        text-align: center;
+        color: var(--muted);
+        padding: 1.5rem 0 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Caffelatto</h1>
+        <p class="tagline">Locul unde cafeaua de specialitate întâlnește atmosfera caldă.</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section>
+        <h2>Despre noi</h2>
+        <p>
+          La Caffelatto servim cafea proaspăt prăjită, deserturi artizanale și momente de relaxare
+          în inima orașului.
+        </p>
+      </section>
+
+      <section>
+        <h2>Meniu preferat</h2>
+        <ul>
+          <li>Espresso dublu</li>
+          <li>Cappuccino cremos</li>
+          <li>Flat White</li>
+          <li>Cold Brew</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Program & contact</h2>
+        <p>Luni - Vineri: 08:00 - 20:00</p>
+        <p>Sâmbătă - Duminică: 09:00 - 21:00</p>
+        <p>Email: hello@caffelatto.ro</p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">© Caffelatto</div>
+    </footer>
+  </body>
+</html>
