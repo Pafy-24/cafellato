@@ -1,11 +1,15 @@
-# CAFELATTO · site static
+# CAFELATTO · Website static
 
-Deschide `index.html` în browser. Nu este necesar backend sau build.
+Site compus exclusiv din HTML, CSS și JavaScript, fără backend.
 
-- `index.html` · pagina principală și contact
-- `meniu.html` · meniul complet, filtre și prețuri
-- `despre-noi.html` · prezentarea și povestea CAFELATTO
-- `styles.css` / `script.js` · stiluri și interacțiuni
-- `assets/logo-cafelatto.png` · monograma CF extrasă din cartea de vizită furnizată
+## Pagini
+- `index.html` — Acasă și contact
+- `meniu.html` — Meniul complet și filtre
+- `despre-noi.html` — Despre noi
 
-Telefon contact: **0750 213 000**.
+## Pornire
+Deschideți `index.html` în browser. Pentru testare cu un server static: `python -m http.server 8000` și apoi `http://localhost:8000`.
+
+Sigla originală: `assets/logo-original.png`, prelucrată din imaginea transmisă de client. Ilustrațiile sunt extrase din materialele de prezentare. Fotografiile ilustrative de categorii se încarcă de pe Unsplash, necesitând internet; fără internet sunt afișate automat ilustrațiile locale. Fotografiile sunt reprezentative pentru categorii, nu imagini oficiale ale produselor CAFELATTO.
+
+Contact: 0750 213 000.
