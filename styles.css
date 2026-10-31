@@ -71,3 +71,4 @@ h1 em,h2 em{font-family:'Playfair Display',Georgia,serif;font-style:italic;lette
 .menu-item{transition:transform .2s,box-shadow .2s}.menu-item:hover{transform:translateY(-3px);box-shadow:0 7px 16px #4c231012}
 .nav a:focus-visible,.btn:focus-visible,.filter:focus-visible,.mobile-toggle:focus-visible{outline:3px solid #8e3c30;outline-offset:3px}
 @media(max-width:680px){.brand-logo{height:59px;width:59px}.brand:after{font-size:1.05rem;letter-spacing:.06em}.category-photo{margin:0 -17px 23px;height:190px}.category-photo-label{left:18px;bottom:16px}.category-photo-label h3{font-size:2.9rem}.category-photo-label p{font-size:19px}}
+.footer-logo{display:flex;align-items:center;gap:12px}.footer-logo:after{content:'CAFELATTO';font-family:var(--display);font-size:1.35rem;font-weight:600;letter-spacing:.08em;color:#f8e6d8;white-space:nowrap}@media(max-width:680px){.footer-logo{gap:9px}.footer-logo:after{font-size:1.05rem;letter-spacing:.06em}}
